@@ -1,0 +1,6 @@
+Java HotSpot(TM) 64-Bit Server VM warning: #
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 134217728 bytes for Failed to commit area from 0x0000000081e00000 to 0x0000000089e00000 of length 134217728.
+INFO: os::commit_memory(0x0000000081e00000, 134217728, 0) failed; error='Bu iþlemin tamamlanmasý için disk belleði dosyasý çok küçük' (DOS error/errno=1455)
+# An error report file with more information is saved as:
+# C:\Users\testinium\IdeaProjects\qatarAirwaysAppiumAssignment\hs_err_pid12460.log

@@ -1,0 +1,91 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (12) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 2859milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2859"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 57220"}
+{"logLevel":"info","message":"Listening on port:57220"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeys' and 'StepImplementation.sendKeys'"}
+{"logLevel":"debug","message":"Found Elemana değer gönder, {}, {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElement' and 'StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Elemana tıkla : {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.randomSec' and 'StepImplementation.randomSec'"}
+{"logLevel":"debug","message":"Found Random Seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.openApp' and 'StepImplementation.openApp'"}
+{"logLevel":"debug","message":"Found Qatar Airways uygulaması açılır. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSeconds' and 'StepImplementation.waitForSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} seconds. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isElementVisible' and 'StepImplementation.isElementVisible'"}
+{"logLevel":"debug","message":"Found Eleman görünüyor mu : {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.assertByid' and 'StepImplementation.assertByid'"}
+{"logLevel":"debug","message":"Found {} idli eleman {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tElemana tıkla : {} : public void clickElement(String idOrXpath)"}
+{"logLevel":"debug","message":"\tEleman görünüyor mu : {} : public void isElementVisible(String idOrXpath)"}
+{"logLevel":"debug","message":"\tRandom Seç : public void randomSec() throws InterruptedException"}
+{"logLevel":"debug","message":"\tWait {} seconds. : public void waitForSeconds(ınt i) throws InterruptedException"}
+{"logLevel":"debug","message":"\tElemana değer gönder, {}, {} : public void sendKeys(String idOrXpath, String deger)"}
+{"logLevel":"debug","message":"\t{} idli eleman {} değerini içeriyor mu kontrol et : public void assertByid(String id, String text)"}
+{"logLevel":"debug","message":"\tQatar Airways uygulaması açılır. : public void openApp()"}
+Local Test Starting
+Local Test Starting on Android
+Ara 26, 2022 1:02:31 ÖS io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Eleman görünüyor mu : {}' using 'class StepImplementation.isElementVisible"}
+sayfa geldi com.m.qr:id/skip_button
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Elemana değer gönder, {}, {}' using 'class StepImplementation.sendKeys"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Elemana değer gönder, {}, {}' using 'class StepImplementation.sendKeys"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Random Seç' using 'class StepImplementation.randomSec"}
+5 results
+5
+5
+seçilen random sayi:1
+swipeScreen(): TouchAction FAILED
+Coordinate [x=720.0, y=-5.0] is outside of element rect: [0,0][1440,2872]
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GVJQ9IU', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.m.qr.home.onboarding.ui..., appPackage: com.m.qr, databaseEnabled: false, desired: {appActivity: com.m.qr.home.onboarding.ui..., appPackage: com.m.qr, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2788, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 2af8f11e-38a2-4170-87e5-5d489facc9d7
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

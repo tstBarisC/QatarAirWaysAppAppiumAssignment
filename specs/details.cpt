@@ -1,0 +1,75 @@
+Created by testinium on 26.12.2022
+
+This is a concept file with following syntax for each concept.
+
+#Qatar Airways uygulaması açılır.
+* Wait "10" seconds.
+
+# Uygulamanın açıldığı kontrol edilir.
+*Eleman görünüyor mu : "com.m.qr:id/skip_button"
+
+
+# Karşılama ekranı “Skip” seçeneği ile geçilir.
+*Elemana tıkla : "com.m.qr:id/skip_button"
+*Wait "2" seconds.
+*Elemana tıkla : "com.m.qr:id/onboarding_skip_button"
+*Wait "10" seconds.
+*Elemana tıkla : "com.m.qr:id/push_consent_decline"
+*Wait "2" seconds.
+
+
+# Alt menüden “Book” tabına geçiş yapılır.
+*Elemana tıkla : "com.m.qr:id/nav_menu_book"
+*Wait "2" seconds.
+
+
+# Seyehat tipi olarak “One Way” seçilir.
+*Elemana tıkla : "//android.widget.LinearLayout[@content-desc='One-way']"
+*Wait "2" seconds.
+
+
+# Kalkış havaalanı olarak Berlin seçilir.
+*Elemana tıkla : "com.m.qr:id/rvmp_fragment_rtow_flight_selection_origin_holder"
+*Elemana değer gönder, "com.m.qr:id/rvmp_fragment_ond_selection_filter_edittext", "Berlin"
+*Wait "2" seconds.
+*Elemana tıkla : "//android.view.ViewGroup[@resource-id='com.m.qr:id/rvmp_item_ond_selection_list_root_view'][1]"
+*Wait "2" seconds.
+
+
+#Varış havaalanı olarak Istanbul seçilir.
+*Elemana tıkla : "com.m.qr:id/rvmp_fragment_rtow_flight_selection_destination_select_destination_text_view"
+*Elemana değer gönder, "com.m.qr:id/rvmp_fragment_ond_selection_filter_edittext", "Istanbul"
+*Wait "2" seconds.
+*Elemana tıkla : "//android.view.ViewGroup[@resource-id='com.m.qr:id/rvmp_item_ond_selection_list_root_view'][1]"
+*Wait "2" seconds.
+
+
+#(Bugünün tarihi + 7 gün) olarak bir gidiş tarihi seçilir
+* Wait "2" seconds.
+*Elemana tıkla : "//android.widget.LinearLayout[@resource-id='com.m.qr:id/rvmp_fragment_rtow_flight_selection_departure_date_holder']"
+*Wait "4" seconds.
+*Tarih olayı
+*Wait "2" seconds.
+*Elemana tıkla : "com.m.qr:id/fragment_calendar_confirm_button"
+*Wait "5" seconds.
+
+
+#Arama butonuna tıklanır
+*Elemana tıkla : "com.m.qr:id/rvmp_booking_search_flights_button"
+*Wait "2" seconds.
+
+#Uçuş seçim ekranının geldiği kontrol edilir
+* Wait "2" seconds.
+*Eleman görünüyor mu : "com.m.qr:id/booking_activity_conversational_message"
+
+#Rastgele bir uçuş seçilir.
+* Random Seç
+* Wait "7" seconds.
+
+
+#Economy class seçeneğine tıklanır
+*Elemana tıkla : "com.m.qr:id/rvmp_activity_flight_details_select_button"
+* Wait "10" seconds.
+
+#Uçuş seçim ekranındaki uçuş saati ile uçuş detayları ekranındaki uçuş saati değeri aynı mı kontrol edilir
+* karsilastir

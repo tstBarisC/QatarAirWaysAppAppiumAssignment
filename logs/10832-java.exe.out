@@ -1,0 +1,64 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (5) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 2580milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2580"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 59891"}
+{"logLevel":"info","message":"Listening on port:59891"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.karisla' and 'StepImplementation.karisla'"}
+{"logLevel":"debug","message":"Found karsilastir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeys' and 'StepImplementation.sendKeys'"}
+{"logLevel":"debug","message":"Found Elemana değer gönder, {}, {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElement' and 'StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Elemana tıkla : {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.randomSec' and 'StepImplementation.randomSec'"}
+{"logLevel":"debug","message":"Found Random Seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.openApp' and 'StepImplementation.openApp'"}
+{"logLevel":"debug","message":"Found Qatar Airways uygulaması açılır. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSeconds' and 'StepImplementation.waitForSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} seconds. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isElementVisible' and 'StepImplementation.isElementVisible'"}
+{"logLevel":"debug","message":"Found Eleman görünüyor mu : {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.assertByid' and 'StepImplementation.assertByid'"}
+{"logLevel":"debug","message":"Found {} idli eleman {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tElemana tıkla : {} : public void clickElement(String idOrXpath)"}
+{"logLevel":"debug","message":"\tEleman görünüyor mu : {} : public void isElementVisible(String idOrXpath)"}
+{"logLevel":"debug","message":"\tRandom Seç : public void randomSec() throws InterruptedException"}
+{"logLevel":"debug","message":"\tWait {} seconds. : public void waitForSeconds(ınt i) throws InterruptedException"}
+{"logLevel":"debug","message":"\tkarsilastir {} : public void karisla(String x)"}
+{"logLevel":"debug","message":"\tElemana değer gönder, {}, {} : public void sendKeys(String idOrXpath, String deger)"}
+{"logLevel":"debug","message":"\t{} idli eleman {} değerini içeriyor mu kontrol et : public void assertByid(String id, String text)"}
+{"logLevel":"debug","message":"\tQatar Airways uygulaması açılır. : public void openApp()"}
+Local Test Starting
+Local Test Starting on Android
+Ara 26, 2022 3:28:00 ÖS io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Eleman görünüyor mu : {}' using 'class StepImplementation.isElementVisible"}
+sayfa geldi com.m.qr:id/skip_button
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Elemana değer gönder, {}, {}' using 'class StepImplementation.sendKeys"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds.' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Elemana tıkla : {}' using 'class StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Elemana değer gönder, {}, {}' using 'class StepImplementation.sendKeys"}
